@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<title>My new page</title>
+		<meta charset="UTF-8">
+		<style>
+
+			body {
+				background-color: rgb(230, 252, 255);
+			}
+
+			p {
+				color: black;
+			}
+
+			pre {
+				text-align: center;
+			}
+
+			/* Select an already visited a */
+			a:visited {
+				color: rgb(0, 0, 238);
+			}
+
+			div {
+				border: 1px solid black;
+				border-radius:10px;
+				background-color:rgb(241, 241, 241);
+			}
+
+			div > * {
+				margin: 3% 0% 3% 3%;
+			}
+
+			span {
+				color: green;
+				font-family:'Times New Roman', Times, serif;
+				font-weight:bolder;
+			}
+
+			.intro {
+				font-family:'Courier New', Courier, monospace
+			}
+
+			.mid {
+				border-width: 5px;
+				border-radius: 20px;
+				font-style:italic;
+			}
+
+			.tables {
+				font-weight:bold;
+			}
+
+			div {
+				margin: 2% 2% 2% 2%;
+			}
+			
+			table, th, tr {
+				border: 2px solid black;
+			}
+			td {
+				border: 1px solid black;
+			}
+		</style>
+    </head>
+	<body>
+		<div class="intro">
+			<h1><a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program" target="_blank">Hello, world</a>!</h1>
+			<p>This paragraph is part of my <i>first header<sup>1</sup></i>!</p><hr>
+
+			<h2>Hi</h2>
+			<p style="background-color: rgb(197, 179, 179)">This paragraph is part of my <i>second header<sup>2</sup></i>!</p><hr>
+
+			<h3>Hey</h3>
+			<p>This paragraph is part of my <i>third header<sup>3</sup></i>!</p><hr>
+
+			<h4>Yo</h4>
+			<p>This paragraph is part of my <b>fourth header<sub>4</sub></b>!</p><hr>
+
+			<h5>Sup</h5>
+			<p>This paragraph is part of my <b>fifth header<sub>5</sub></b>!</p><hr>
+
+			<h6>Wassup</h6>
+			<p><span>This paragraph</span> is part of my <b>sixth header<sub>6</sub></b>!</p><hr>
+		</div>
+
+
+		<div class="mid">
+			<pre>
+				This is a preformatted text.
+				It can span multiple lines.
+				And it will preserve all the spaces.
+			</pre><a href="about:blank">
+				None
+				<!-- <img src="cert.png" style="width: 700px; height: 500px;"> -->
+			</a>
+
+			<p>This is a <br>line</br> break!</p>
+		</div>
+
+
+		<div class="tables">
+			<style>
+				li > ul > li {
+					display: inline;
+					list-style-type: none;
+				}
+			</style>
+
+			<ul>
+				<li>El1</li>
+
+				<li>El2</li>
+
+				<li>El3</li>
+
+				<li>El4</li>
+
+				<li>El5</li>
+			</ul>
+
+			<ol reversed>
+				<li>
+					El1
+					<ul>
+						<li>K1</li>
+						<li>K2</li>
+					</ul>
+				</li>
+
+				<li>El2</li>
+
+				<li>El3</li>
+
+				<li>El4</li>
+
+				<li>El5</li>
+			</ol>
+
+			<dl>
+				<dt>Car</dt>
+				<dd>A car is a vehicle</dd>
+
+				<dt>Semantic Net</dt>
+				<dd>Tom is cat</dd>
+			</dl>
+
+			<p>The <abbr title="Learning Rate">LR</abbr> is very important</p>
+
+			<table>
+				<tr>
+					<th>id</th>
+					<th>Name</th>
+				</tr>
+				<tr>
+					<td>0</td>
+					<td>Ziad</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Lorem</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
